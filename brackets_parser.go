@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -10,11 +9,11 @@ const (
 	open  = '['
 )
 
-func main() {
-	swaps := minSwaps("][][")
+// func main() {
+// 	swaps := minSwaps("][][")
 
-	fmt.Printf("swaps: %d\n", swaps)
-}
+// 	fmt.Printf("swaps: %d\n", swaps)
+// }
 
 func minSwaps(s string) int {
 	myString := s

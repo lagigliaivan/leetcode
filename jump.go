@@ -1,16 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
-func main() {
-	nums := []int{0}
-	j := canJump(nums)
-
-	fmt.Printf("Can jump: %v\n", j)
-}
-
 var alreadyEvaluated map[int]bool
 
 func canJump(nums []int) bool {
